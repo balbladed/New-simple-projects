@@ -4,3 +4,6 @@ $(document).ready(function(){
       dots: true
     });
 });
+$('.slider').lightGallery({
+    thumbnail:true
+});
