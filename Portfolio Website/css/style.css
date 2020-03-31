@@ -214,3 +214,161 @@ a.about-me-info p
   font-size: 10rem;
   opacity: .1;
 }
+
+p.skills-info
+{
+  font-size: 1.3rem;
+  color: #bebebe;
+  max-width: 800px;
+  position: relative;
+  left:50%;
+  right: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.html
+{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+}
+
+.tag-html, .tag-css, .tag-boostrap, .tag-sass
+{
+  clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 0% 50%, 0% 0%);
+  width: 120px;
+  height: 30px;
+  background-color: #1785a7;
+  margin-right: 30px;
+}
+.tag-html p, .tag-css p, .tag-boostrap p, .tag-sass p
+{
+  color: #fff;
+  text-align: left;
+  padding-left: 10px;
+  font-size: 1.1rem;
+  padding-top: 3px;
+}
+
+.progressbar
+{
+  width: 600px;
+  position: relative;
+  height: 20px;
+  border: 2px solid #48CFAD;
+  border-radius: 20px;
+  margin-top: 7px;
+}
+
+.bar-html, .bar-css, .bar-boostrap, .bar-sass
+{
+  position: absolute;
+  background-color: #48CFAD;
+  height: 10px;
+  border-radius: 20px;
+  margin: 2.7px;
+}
+
+.bar-html,
+.bar-css,
+.bar-boostrap,
+.bar-sass
+{
+  width: calc(0 - 6px)
+}
+.work-category button
+{
+  text-transform: capitalize;
+  border: 3px solid #ed5565;
+  padding: 15px 30px;
+  border-radius: 50px;
+  color: #ed5565;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  background-color: #252627;
+  outline: none;
+  cursor: pointer;
+}
+.category-designing
+{
+  display: grid;
+  margin-top: 50px;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 20px;
+
+}
+
+.work a
+{
+  justify-self:center;
+  position: relative;
+  display: inline-block;
+}
+
+.work-category, .active
+{
+  background-color: #ed5565;
+
+}
+button.active
+{
+  color: #fff;
+}
+.work a img{
+  width: 350px;
+  justify-self:center;
+}
+.showCategory
+{
+  display: block;
+}
+.hideCategory
+{
+  display: none;
+}
+
+.contact
+{
+  margin-top: 50px;
+}
+form input,
+form textarea
+{
+  display: block;
+  width: 500px;
+  padding: 20px;
+  background-color: #252627;
+  border: 3px solid #707070;
+  margin: 20px 0;
+  outline: none;
+  font-size: 1.3rem;
+  color: #fff;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  transform: translateX(-50%);
+}
+
+form input:last-child
+{
+  width: 150px;
+  background-color: #ed5565;
+  border:none;
+  cursor:pointer;
+}
+footer hr
+{
+  border: 2px solid #707070;
+  margin-top: 80px;
+
+}
+footer p
+{
+  text-align: center;
+  color:#707070;
+  font-size: 1.2rem;
+  padding: 30px 0;
+}
